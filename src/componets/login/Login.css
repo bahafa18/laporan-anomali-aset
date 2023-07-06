@@ -1,0 +1,40 @@
+.loginPage {
+  height: 100vh;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardLogin {
+  width: 50%;
+  border-radius: 10px;
+  min-height: 600px;
+  background-color: blueviolet;
+  padding: 10px;
+  background-image: url(./engineer.jpeg);
+  background-size: 100%;
+}
+
+.leftLogin {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-image: url(./engineer.jpeg) center;
+  background-size: cover;
+}
+
+.rightLogin {
+  flex: 1;
+}
+
+.cardLogin form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.rightLogin form button {
+  cursor: pointer;
+}
