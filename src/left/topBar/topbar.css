@@ -1,0 +1,23 @@
+.topbar {
+  background: white;
+  display: flex;
+  margin-top: 1.4rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.logo img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.hide-sidebar {
+  display: none;
+}

@@ -1,10 +1,14 @@
 import "./App.css";
-import Login from "./componets/login/Login";
+import Left from "./left/Left";
 
 function App() {
   return (
     <div className="App">
-      <Login />
+      <div className="container">
+        <Left />
+        <div>main</div>
+        <div>right</div>
+      </div>
     </div>
   );
 }
